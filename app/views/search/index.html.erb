@@ -1,0 +1,11 @@
+<h1> Fire Nation Characters </h1>
+<p> <%= @characters.count %> characters </p>
+<p> <% @characters.each do |character| %>
+  <%= character.name %> <br>
+  <%= character.photo %> <br>
+  <%= character.allies %> <br>
+  <%= character.enemies %> <br>
+  <%= character.affiliation %> <br>
+  <br>
+  <br>
+  <% end %>

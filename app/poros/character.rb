@@ -8,9 +8,9 @@ class Character
   def initialize(data)
     @id = data[:_id]
     @name = data[:name]
-    @photo = data[:photoUrl]
-    @enemies = data[:enemies]
-    @allies = data[:allies]
+    @photo = data[:photoUrl] || "No Picture Available"
+    @enemies = data[:enemies] || "None"
+    @allies = data[:allies] || "None"
     @affiliation = data[:affiliation]
   end
 end

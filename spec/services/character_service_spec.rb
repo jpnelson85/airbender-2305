@@ -1,9 +1,9 @@
 require "rails_helper"
 
-RSpec.describe AirbenderService do
+RSpec.describe CharacterService do
   describe "all_characters" do
     it "returns all characters", :vcr do
-      airbender_service = AirbenderService.new
+      airbender_service = CharacterService.new
 
       characters = airbender_service.characters_by_nation("Fire Nation")
 

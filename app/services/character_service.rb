@@ -1,4 +1,4 @@
-class AirbenderService
+class CharacterService
 
   def characters_by_nation(nation)
     get_url("/api/v1/characters?affiliation=#{nation}")
