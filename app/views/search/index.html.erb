@@ -3,12 +3,19 @@
 <p> <% @characters.take(25).each do |character| %>
   <p> Name:<%= character.name %> <br></p>
   <img src="<%= character.photo %>" alt="<%= character.name %> Photo"> <br>
+  <% if character.allies == [] %>
+    <p>Allies: None</p>
+    <% else %>
   <p> Allies:<% character.allies.each do |ally| %></p>
-    
     <%= ally %>
+    <% end %>
     <% end %> <br>
+    <% if character.enemies == [] %>
+      <p>Enemies: None</p>
+    <% else %>
   <p> Enemies:<%= character.enemies.each do |enemy| %></p>
     <%= enemy %>
+    <% end %>
     <% end %> <br>
   <p> Affiliation:<%= character.affiliation %> <br>
   <br>
