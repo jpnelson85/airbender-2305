@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-09-08T10:32:00-05:00">2023-09-08T10:32:00-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-09-08T10:43:58-05:00">2023-09-08T10:43:58-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -29,8 +29,8 @@
      </span>
      covered at
      <span class="covered_strength">
-       <span class="yellow">
-         1.0
+       <span class="green">
+         2.44
        </span>
     </span> hits/line
     )
@@ -39,12 +39,12 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>14</b> files in total.
+    <b>18</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>52</b> relevant lines,
-    <span class="green"><b>52</b> lines covered</span> and
+    <b>95</b> relevant lines,
+    <span class="green"><b>95</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -85,8 +85,8 @@
             <td class="strong t-file__name"><a href="#77d4040a74efb3804191f9fd4c13c151d1402e56" class="src_link" title="app/controllers/search_controller.rb">app/controllers/search_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">5</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">2</td>
+            <td class="cell--number">3</td>
+            <td class="cell--number">3</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -104,6 +104,17 @@
           </tr>
         
           <tr class="t-file">
+            <td class="strong t-file__name"><a href="#048ade20df987dfec3f3ddc5f8226a6dbed06db9" class="src_link" title="app/facades/airbender_facade.rb">app/facades/airbender_facade.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">5</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">4.80</td>
+            
+          </tr>
+        
+          <tr class="t-file">
             <td class="strong t-file__name"><a href="#5d698e3aac62f2b374cfe0ddbbc51e6db8aa9105" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">10</td>
@@ -111,6 +122,28 @@
             <td class="cell--number">3</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#2f5f5e0478895206f396c60c973cbe7a02aa089d" class="src_link" title="app/poros/character.rb">app/poros/character.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">13.67</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#d8d176d265ff8657819d2e3c3cb69a4e197fd476" class="src_link" title="app/services/airbender_service.rb">app/services/airbender_service.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">8</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.50</td>
             
           </tr>
         
@@ -224,6 +257,17 @@
             
           </tr>
         
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#82e853eeedccf35a0ca2379c3f53c54586ca2e77" class="src_link" title="spec/services/airbender_service_spec.rb">spec/services/airbender_service_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">26</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">20</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
       </tbody>
     </table>
   </div>
@@ -308,8 +352,8 @@
     
 
     <div class="t-line-summary">
-      <b>2</b> relevant lines.
-      <span class="green"><b>2</b> lines covered</span> and
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -343,13 +387,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="3">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    </code>
+            
+
+            <code class="ruby">    @characters = AirbenderFacade.new.characters_by_fire_nation</code>
           </li>
         </div>
       
@@ -441,6 +485,125 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="048ade20df987dfec3f3ddc5f8226a6dbed06db9">
+  <div class="header">
+    <h3>app/facades/airbender_facade.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class AirbenderFacade</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def characters_by_fire_nation</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    characters = AirbenderService.new.characters_by_nation(&quot;Fire Nation&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    characters.map do |character_data|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="5">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">      Character.new(character_data)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
             
             
 
@@ -582,6 +745,420 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="2f5f5e0478895206f396c60c973cbe7a02aa089d">
+  <div class="header">
+    <h3>app/poros/character.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>9</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class Character</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  attr_reader :id,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">              :name,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">              :photo,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">              :enemies,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">              :allies,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">              :affiliation</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def initialize(data)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="9">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">    @id = data[:_id]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="10">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">    @name = data[:name]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="11">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">    @photo = data[:photoUrl]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="12">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">    @enemies = data[:enemies]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="13">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">    @allies = data[:allies]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="20" data-linenumber="14">
+            <span class="hits">20</span>
+            
+
+            
+
+            <code class="ruby">    @affiliation = data[:affiliation]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="d8d176d265ff8657819d2e3c3cb69a4e197fd476">
+  <div class="header">
+    <h3>app/services/airbender_service.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>8</b> relevant lines.
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class AirbenderService</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def characters_by_nation(nation)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="4">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    get_url(&quot;/api/v1/characters?affiliation=#{nation}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def get_url(url)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="8">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    response = conn.get(url)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="9">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    JSON.parse(response.body, symbolize_names: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def conn </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="13">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    Faraday.new(url: &quot;https://last-airbender-api.fly.dev&quot;) do |f|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
             
             
 
@@ -2894,6 +3471,323 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="82e853eeedccf35a0ca2379c3f53c54586ca2e77">
+  <div class="header">
+    <h3>spec/services/airbender_service_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>20</b> relevant lines.
+      <span class="green"><b>20</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &quot;rails_helper&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe AirbenderService do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &quot;all_characters&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &quot;returns all characters&quot;, :vcr do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      airbender_service = AirbenderService.new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      characters = airbender_service.characters_by_nation(&quot;Fire Nation&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters).to be_an(Array)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.count).to eq(20)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first).to have_key(:_id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first[:_id]).to be_a(String)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first).to have_key(:allies)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first[:allies]).to be_an(Array)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first).to have_key(:enemies)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first[:enemies]).to be_an(Array)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first).to have_key(:photoUrl)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first[:photoUrl]).to be_a(String)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first).to have_key(:name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first[:name]).to be_a(String)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first).to have_key(:affiliation)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(characters.first[:affiliation]).to be_a(String)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 
