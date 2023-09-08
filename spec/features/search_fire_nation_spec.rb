@@ -11,12 +11,12 @@ RSpec.describe "As a user" do
 
       expect(current_path).to eq(search_path)
 save_and_open_page
-      # expect(page).to have_content("100 Members")
-      expect(page).to have_content("Name: Chan (Fire Nation admiral)")
-      expect(page).to have_content("https://vignette.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest?cb=20140905084941")
-      expect(page).to have_content("Allies: Ozai")
-      expect(page).to have_content("Enemies: Earth Kingdom")
-      expect(page).to have_content("Affiliation: Fire Nation Navy")
+      expect(page).to have_content("20 Members")
+      expect(page).to have_content("Name:Azula")
+      expect(page).to have_selector("img[src='https://vignette.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest?cb=20140905084941']")
+      expect(page).to have_content("Ozai")
+      expect(page).to have_content("Iroh")
+      expect(page).to have_content("Affiliation: Fire Nation Royal Family")
     end
   end
 end

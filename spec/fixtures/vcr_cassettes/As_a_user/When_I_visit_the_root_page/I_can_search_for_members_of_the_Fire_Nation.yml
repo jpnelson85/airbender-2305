@@ -27,7 +27,7 @@ http_interactions:
       Etag:
       - W/"1497-HuaH8oMBG1OMHhb3SGfhO939Xj4"
       Date:
-      - Fri, 08 Sep 2023 15:43:58 GMT
+      - Fri, 08 Sep 2023 16:28:11 GMT
       Connection:
       - keep-alive
       Keep-Alive:
@@ -39,7 +39,7 @@ http_interactions:
       Via:
       - 1.1 fly.io
       Fly-Request-Id:
-      - 01H9TQDPQ2D7KV1TP5VHT8C677-chi
+      - 01H9TSYNHRP251GJWKXWXNBN4E-chi
     body:
       encoding: ASCII-8BIT
       string: '[{"_id":"5cf5679a915ecad153ab68da","allies":["Ozai","Zuko "],"enemies":["Iroh","Zuko","Kuei","Long
@@ -74,5 +74,5 @@ http_interactions:
         Island Players","affiliation":"Fire Nation"},{"_id":"5cf5679a915ecad153ab6925","allies":["Fire
         Nation bar patron"],"enemies":["Katara"],"photoUrl":"https://vignette.wikia.nocookie.net/avatar/images/4/40/Fire_Nation_bar_patron%27s_friend.png/revision/latest?cb=20130308170725","name":"Fire
         Nation bar patron''s friend","affiliation":"Fire Nation"}]'
-  recorded_at: Fri, 08 Sep 2023 15:43:58 GMT
+  recorded_at: Fri, 08 Sep 2023 16:28:11 GMT
 recorded_with: VCR 6.2.0

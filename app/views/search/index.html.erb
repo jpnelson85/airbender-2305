@@ -1,11 +1,15 @@
 <h1> Fire Nation Characters </h1>
-<p> <%= @characters.count %> characters </p>
-<p> <% @characters.each do |character| %>
-  <%= character.name %> <br>
-  <%= character.photo %> <br>
-  <%= character.allies %> <br>
-  <%= character.enemies %> <br>
-  <%= character.affiliation %> <br>
+<p> <%= @characters.count %> Members </p>
+<p> <% @characters.take(25).each do |character| %>
+  <p> Name:<%= character.name %> <br></p>
+  <img src="<%= character.photo %>" alt="<%= character.name %> Photo"> <br>
+  <p> Allies:<% character.allies.each do |ally| %></p>
+    <%= ally %>
+    <% end %> <br>
+  <p> Enemies:<%= character.enemies.each do |enemy| %></p>
+    <%= enemy %>
+    <% end %> <br>
+  <p> Affiliation:<%= character.affiliation %> <br>
   <br>
   <br>
   <% end %>
