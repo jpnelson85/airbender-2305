@@ -10,7 +10,7 @@ RSpec.describe "As a user" do
       click_on "Search For Members"
 
       expect(current_path).to eq(search_path)
-save_and_open_page
+
       expect(page).to have_content("20 Members")
       expect(page).to have_content("Name:Azula")
       expect(page).to have_selector("img[src='https://vignette.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest?cb=20140905084941']")

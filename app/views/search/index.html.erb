@@ -4,6 +4,7 @@
   <p> Name:<%= character.name %> <br></p>
   <img src="<%= character.photo %>" alt="<%= character.name %> Photo"> <br>
   <p> Allies:<% character.allies.each do |ally| %></p>
+    
     <%= ally %>
     <% end %> <br>
   <p> Enemies:<%= character.enemies.each do |enemy| %></p>
